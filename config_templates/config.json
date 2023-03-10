@@ -1,0 +1,8 @@
+{
+  "environment": {
+    "refresh_interval": 15,
+    "gitlab_username": "your.username",
+    "notification_sound": "Default",
+    "gitlab_project_id": "project_id"
+  }
+}

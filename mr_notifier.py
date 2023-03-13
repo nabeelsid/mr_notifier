@@ -49,7 +49,7 @@ try:
 		for mr in api_call(config_data):
 			logging.debug(mr)
 			notify(title='Merge Request', 
-				message =f"{mr['author']['name']} has requested a review", 
+				message =f"{mr['author']['name']} has requested a review. Click to open the MR", 
 				url=f'{mr["web_url"]}',
 				icon=f'{mr["author"]["avatar_url"]}' #Currently icons do not work, but maybe someone can help make it work.
 			) 
